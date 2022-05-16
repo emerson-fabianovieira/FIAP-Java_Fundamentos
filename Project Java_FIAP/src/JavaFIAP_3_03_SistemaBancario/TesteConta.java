@@ -1,4 +1,4 @@
-package JavaFIAP_3_03;
+package JavaFIAP_3_03_SistemaBancario;
 
 public class TesteConta {
 
