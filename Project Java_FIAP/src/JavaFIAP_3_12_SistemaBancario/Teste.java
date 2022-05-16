@@ -1,4 +1,4 @@
-package JavaFIAP_3_12_SistemaBancário;
+package JavaFIAP_3_12_SistemaBancario;
 
 public class Teste {
 
