@@ -1,4 +1,4 @@
-package JavaFIAP_4_1_HerançaAnimal;
+package JavaFIAP_4_2_HerançaAnimal;
 
 public class Animal {
 	
