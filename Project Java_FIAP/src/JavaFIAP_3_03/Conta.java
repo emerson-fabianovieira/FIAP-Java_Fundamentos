@@ -1,4 +1,4 @@
-package JavaFIAP_3_3;
+package JavaFIAP_3_03;
 
 public class Conta {
 	

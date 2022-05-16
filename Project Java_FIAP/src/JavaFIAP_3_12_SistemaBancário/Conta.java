@@ -1,4 +1,6 @@
-package JavaFIAP_3_07_SistemaBancário;
+package JavaFIAP_3_12_SistemaBancário;
+
+import java.io.Serializable;
 
 /**
  * Sistema Bancário
@@ -6,11 +8,14 @@ package JavaFIAP_3_07_SistemaBancário;
  * @version 1.0
  */
 
-public class Conta {
+public class Conta implements Serializable {
 	
-	int agencia;
-	int numero;
-	double saldo;
+	private int agencia;
+	private int numero;
+	private double saldo;
+	public double depositar;
+	public int setAgencia;
+	public int setNumero;
 	
 	public Conta () {
 		
@@ -30,6 +35,22 @@ public class Conta {
 		this.saldo = saldo;
 	}
 	
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+
 	/**
 	 * Acrescenta valor ao Saldo da Conta
 	 * @param valor que será depositado
@@ -52,7 +73,7 @@ public class Conta {
 	 * Verifica o Saldo da Conta
 	 * @return Valor do Saldo da Conta
 	 */
-	public double veirficarSaldo () {
+	public double getSaldo () {
 	return this.saldo;
 	}
 
