@@ -1,4 +1,4 @@
-package JavaFIAP_5_4_Caixa_Arrays1;
+package JavaFIAP_5_4_Caixa_Arrays2;
 
 public class Caixa {
 
@@ -28,7 +28,9 @@ public class Caixa {
 //		valores[2] = 30;
 //		valores[3] = 40;
 //		valores[4] = 50;
-		
+//		
+//		System.out.println(valores[1]);
+	
 		float [] valores = { 10,20,30,40,50 };
 		float [] valores2 = new float[] { 10,20,30,40,50 };
 	
