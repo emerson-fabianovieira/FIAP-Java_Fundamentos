@@ -9,6 +9,7 @@ public class Caixa {
 		
 		while (registro < qtdProdutos) {
 			registro++;
+			
 			System.out.println(" O produto número " +registro + " foi registrado");
 		}
 			
